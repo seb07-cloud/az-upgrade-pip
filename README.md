@@ -17,8 +17,7 @@ To use this script, follow these steps:
 
 1. Open PowerShell and navigate to the directory where the script is saved.
 2. Run the script using the following command: `.\upgrade-pip.ps1`
-3. The script will prompt you to enter the necessary information, such as the subscription ID, virtual machine name, and resource group name.
-4. The script will then stop the virtual machine, upgrade the public IP address, and restart the virtual machine.
+3. The script will then stop the virtual machine, upgrade the public IP address, and restart the virtual machine.
 
 ## Parameters
 
