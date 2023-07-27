@@ -1,11 +1,24 @@
 function Get-PublicIps {
   [CmdletBinding()]
   param (
-    [string]$skuName = "Basic"
+    [Parameter(Mandatory = $false)]
+    [string]$skuName = "Basic",
+
+    [Parameter(Mandatory = $false)]
+    [string]$subscriptionId
   )
 
-  $subscriptions = Get-AzSubscription
+  # Save Context and set initial context at the end
   $context = Get-AzContext
+
+  if($subscriptionId) {
+    $subscriptions = Get-AzSubscription | Where-Object { $_.Id -eq $subscriptionId }
+  }
+  else {
+    $subscriptions = Get-AzSubscription
+  }
+  
+  # Create return object
   $returnObject = @()
 
   # Get all public IPs in the subscription

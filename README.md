@@ -19,6 +19,11 @@ To use this script, follow these steps:
 2. Run the script using the following command: `.\upgrade-pip.ps1`
 3. The script will then stop the virtual machine, upgrade the public IP address, and restart the virtual machine.
 
+## Warning
+
+This script will upgrade all public IP addresses in the specified subscription.
+When no Subscription is specified, the script will upgrade all public IP addresses in all subscriptions.
+
 ## Parameters
 
 This script takes the following parameters:
