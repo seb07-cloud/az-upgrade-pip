@@ -2,7 +2,7 @@
 
 This PowerShell script is designed to upgrade the public IP address of a virtual machine in Azure. It is intended for use by developers who need to upgrade their virtual machines to use a Standard SKU public IP address.
 
-Based on the following article :[https://azure.microsoft.com/en-us/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/](https://azure.microsoft.com/en-us/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/)
+Based on the following article [https://azure.microsoft.com/en-us/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/](https://azure.microsoft.com/en-us/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/)
 
 ## Prerequisites
 
