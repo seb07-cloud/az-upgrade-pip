@@ -1,4 +1,4 @@
-# Upgrade-Pip PowerShell Script
+# Upgrade your Azure Public Ip Addresses to Standard SKU
 
 This PowerShell script is designed to upgrade the public IP address of a virtual machine in Azure. It is intended for use by developers who need to upgrade their virtual machines to use a Standard SKU public IP address.
 
